@@ -11,6 +11,8 @@ func main() {
 	cls(func() {
 		fmt.Println("func")
 	})
+
+	test.Htest()
 }
 
 func cls(task func()) {
