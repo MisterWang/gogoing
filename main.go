@@ -7,12 +7,13 @@ import (
 )
 
 func main() {
-	test.Json_test()
-	cls(func() {
-		fmt.Println("func")
-	})
+	// test.Json_test()
+	// cls(func() {
+	// 	fmt.Println("func")
+	// })
 
-	test.Htest()
+	// test.Htest()
+	fmt.Println(test.Test_reg("s(.*)","ssbssb"))
 }
 
 func cls(task func()) {
