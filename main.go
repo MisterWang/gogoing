@@ -1,7 +1,8 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
+	// "sync"
 
 	"./test"
 )
@@ -13,7 +14,10 @@ func main() {
 	// })
 
 	// test.Htest()
-	fmt.Println(test.Test_reg("s(.*)","ssbssb"))
+	// fmt.Println(test.Test_reg("s(.*)","ssbssb"))
+	// Gtest();
+
+	test.Gtest();
 }
 
 func cls(task func()) {

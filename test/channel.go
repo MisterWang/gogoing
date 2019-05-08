@@ -2,7 +2,7 @@ package test
 
 import "fmt"
 
-func test_chan() {
+func Test_chan() {
 	c := make(chan string)
 	go channel(c)
 
