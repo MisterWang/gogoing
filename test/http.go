@@ -27,7 +27,7 @@ func Htest(url string ) {
 func Gtest(){
 	curtime := time.Now();
 	timestamp := curtime.Unix();
-	cs chan string;
+	// cs chan string;
 	c1 := make(chan string);
 	c2 := make(chan string);
 

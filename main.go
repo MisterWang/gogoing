@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	// test.Json_test()
+	test.Json_test()
 	// cls(func() {
 	// 	fmt.Println("func")
 	// })
@@ -17,7 +17,7 @@ func main() {
 	// fmt.Println(test.Test_reg("s(.*)","ssbssb"))
 	// Gtest();
 
-	test.Gtest();
+	// test.Gtest();
 }
 
 func cls(task func()) {
